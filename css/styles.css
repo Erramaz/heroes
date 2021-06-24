@@ -60,6 +60,7 @@ body {
     margin: 30px;
     width: 300px;
     height: 529px;
+    position: relative;
 }
 
 #harley {
@@ -69,21 +70,36 @@ body {
 .card i {
     color: #CC2424;
     position: absolute;
-    font-size: 30px;
+    left: 20px;
+    top: 30px;
+    font-size: 40px;
+}
+
+.card i:active {
+    color: #CC2424a9;
+}
+
+.card i:hover {
+    color: #9b0e0e;
 }
 
 .card img {
     border-radius: 50%;
     box-shadow: 0px 5px 5px #707070ab;
-    position: relative;
+    position: absolute;
     top: 127px;
     left: 89px;
+}
+
+.card img:hover {
+    box-shadow: 0px 5px 5px #4561ffab;
+    width: 42%;
 }
 
 .textcard {
     text-align: center;
     position: relative;
-    top: 125px;
+    top: 230px;
     margin: 0px 16px;
 }
 
